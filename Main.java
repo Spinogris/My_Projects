@@ -55,7 +55,7 @@ public class Main {
             .max(Integer::compareTo)
             .stream().toList();
     System.out.println(max);
-    // По подсказкам дошёл, но не понятно зачем второй stream на 48 строке...
+    // По подсказкам дошёл, но не понятно зачем второй stream на 48 строке...        Всё. теперь понял!=)
 
     System.out.println("Задание 5: Фильтрация списка строк на те, которые начинаются с определенной буквы и преобразование их в верхний регистр");
     List<String> upperCaseWords = listStringWords.stream()
